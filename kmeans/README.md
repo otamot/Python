@@ -8,7 +8,7 @@ inputファイルはCSVの形式で、各行に
 label,要素1,要素2,...,要素N
 ```
 の形式でデータが格納されている。
-以下がinputフィルのsampleである。
+以下がinputファイルのsampleである。
 
 ```
 user1,80,85,100
@@ -169,3 +169,9 @@ if __name__ == "__main__":
 	cluster_n = int(raw_input())
 	kmeans(inputFile,outputFile,cluster_n)
 ```
+
+function kmeansは3つの引数をとる。
+* inputFile 入力ファイルのpath
+* outputFile 出力ファイルのpath
+* nCluster 分けるクラスタの数
+
