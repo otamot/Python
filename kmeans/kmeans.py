@@ -50,8 +50,8 @@ def kmeans(inputFile,outputFile,nCluster):
 	#出力ファイルのオープン
 	outputTxt = open(outputFile,"w")
 	#zip関数:複数のシーケンスオブジェクトを同時にループできる。
-	for clusterNumber, feature,label in zip(clusterNumbers,features,labels):
-		outputTxt.write(str(label) + "," + str(clusterNumber) + str(feature) +"\n")
+	for clusterNumber,label in zip(clusterNumbers,labels):
+		outputTxt.write(str(label) + "," + str(clusterNumber) +"\n")
 	#出力ファイルのクローズ
 	outputTxt.close()
 
