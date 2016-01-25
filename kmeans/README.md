@@ -186,4 +186,12 @@ class sklearn.cluster.KMeans(n_clusters=8, init='k-means++', n_init=10, max_iter
 |引数|意味|  
 |:-|:-|  
 |n_cluster|クラスタの数、デフォルトが8|  
-|init|初期値の決め方。'kmeans++'と'random'がある。デフォルトは'kmeans++'|  
+|init|初期値の決め方。'kmeans++'と'random'がある。デフォルトは'kmeans++'| 
+
+|ここに|項目を|入れます|
+|:-|-:|:-:|
+|ここから|テキストを|入れていきます|
+|昨日|今日|明日|
+|ボールペン|シャープペン|万年筆|
+|iPhone|iPad|MacBook|
+|テキストがながーくなっても|大丈夫なように出来ているので|レスポンシブでも安心|
