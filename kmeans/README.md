@@ -50,7 +50,7 @@ user36,92,74,77
 user37,97,50,73
 ```
 
-## 出力ファイル
+## [出力ファイル](https://github.com/otamot/Python/blob/master/kmeans/output.txt)
 出力ファイルは以下のCSV形式で出力される
 
 ```
@@ -100,7 +100,7 @@ user37,1
 
 ```
 
-## コード
+## [コード](https://github.com/otamot/Python/blob/master/kmeans/kmeans.py)
 ``` Python
 # _*_ coding: utf-8 _*_
 from sklearn.cluster import KMeans
@@ -176,22 +176,11 @@ function kmeansは3つの引数をとる。
 * nCluster 分けるクラスタの数
 
 
-## sklearn.cluster.kmeansについて
+## [sklearn.cluster.kmeansについて](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
 
 sklearn.cluster.kmeansは以下の様な構成のライブラリである。
 ```python
 class sklearn.cluster.KMeans(n_clusters=8, init='k-means++', n_init=10, max_iter=300, tol=0.0001, precompute_distances='auto', verbose=0, random_state=None, copy_x=True, n_jobs=1)
 ```
 
-|引数|意味|  
-|:-|:-|  
-|n_cluster|クラスタの数、デフォルトが8|  
-|init|初期値の決め方。'kmeans++'と'random'がある。デフォルトは'kmeans++'| 
 
-|ここに|項目を|入れます|
-|:-|-:|:-:|
-|ここから|テキストを|入れていきます|
-|昨日|今日|明日|
-|ボールペン|シャープペン|万年筆|
-|iPhone|iPad|MacBook|
-|テキストがながーくなっても|大丈夫なように出来ているので|レスポンシブでも安心|
