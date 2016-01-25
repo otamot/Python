@@ -2,7 +2,7 @@
 k-meansによってクラスタリングを行う。
 ここではN次元のベクトルを持つ各ユーザをn個のクラスタに分ける。
 
-## 入力ファイル
+## [入力ファイル](https://github.com/otamot/Python/blob/master/kmeans/input.txt)
 inputファイルはCSVの形式で、各行に
 ```
 label,要素1,要素2,...,要素N
