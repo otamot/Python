@@ -183,7 +183,7 @@ sklearn.cluster.kmeansは以下の様な構成のライブラリである。
 class sklearn.cluster.KMeans(n_clusters=8, init='k-means++', n_init=10, max_iter=300, tol=0.0001, precompute_distances='auto', verbose=0, random_state=None, copy_x=True, n_jobs=1)
 ```
 
-|引数|意味|
-|:-|:-|
-|n_cluster|クラスタの数、デフォルトが8|
-|init|初期値の決め方。'kmeans++'と'random'がある。デフォルトは'kmeans++'|
+|引数|意味|  
+|:-|:-|  
+|n_cluster|クラスタの数、デフォルトが8|  
+|init|初期値の決め方。'kmeans++'と'random'がある。デフォルトは'kmeans++'|  
